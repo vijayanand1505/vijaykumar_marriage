@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <div class="container">
+      <div class="card">
+        <h2>Register Form</h2>
+        <form>
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" class="txtFullName" required placeholder="Enter your full name">
+    
+          <label for="email">Email</label>
+          <input type="email" id="email" class="txtEmail" required placeholder="Enter your email">
+    
+          <label for="new-password">New Password</label>
+          <input type="password" id="new-password" class="txtNew-Password" required placeholder="Enter your new password">
+    
+          <button type="submit" onclick="register()">Register</button>
+        </form>
+        <div class="switch">Already have an account? <a href="index.html">Login here</a></div>
+      </div>
+    </div>
+
+</body>
+</html>
